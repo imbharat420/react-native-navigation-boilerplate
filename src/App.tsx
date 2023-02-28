@@ -2,9 +2,9 @@
 
 import * as React from 'react';
 import {View, Text} from 'react-native';
+import First from '@components/First';
 // import {NavigationContainer} from '@react-navigation/native';
 // import {createNativeStackNavigator} from '@react-navigation/native-stack';
-// import First from './components/First';
 
 // function HomeScreen({navigation}: any) {
 //   return (
@@ -47,6 +47,7 @@ function App() {
   return (
     <View>
       <Text>App</Text>
+      <First />
     </View>
   );
 }
